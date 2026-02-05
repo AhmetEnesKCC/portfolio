@@ -1,0 +1,12 @@
+# UI System (LinkedIn-esque Dark)
+
+- Merkez kolon: `max-w-[920px]`
+- Bölümler: Card bazlı
+- Card primitive: `src/components/ui/card.tsx`
+- Badge primitive: `src/components/ui/badge.tsx`
+
+Kurallar:
+- Border: `border-white/10`, background: `bg-zinc-950/60` gibi low-contrast.
+- `rounded-2xl` ve “glass” hissi korunur.
+- Mobile’da stack; masaüstünde spacing kontrollü.
+

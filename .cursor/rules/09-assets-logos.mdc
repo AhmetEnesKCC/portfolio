@@ -1,0 +1,13 @@
+# Assets & Logos
+
+- Statik dosyalar: `public/`
+- Logo klasörü: `public/logos/`
+- Mapping dosyaları:
+  - Company: `src/data/company-logos.ts`
+  - Education: `src/data/education-logos.ts`
+  - Awards: `src/data/award-logos.ts`
+
+Kurallar:
+- Logo yoksa fallback (baş harf) kullan.
+- UI’da asla remote logo URL render etme; mümkünse `public/`’a indir.
+

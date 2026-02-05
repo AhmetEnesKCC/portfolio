@@ -1,0 +1,13 @@
+# Scroll & Navigation
+
+Kurallar:
+- Navbar anchor navigasyonu `NavAnchor` ile yapılır (Next Link hash bug’larını bypass).
+- Sticky header offset (default 72px) dikkate alınır.
+- Active section `useActiveSection` ile scroll-pos tabanlı hesaplanır.
+- Nav click sırasında “active lock” uygulanır (`nav:jump`) — tıklanınca active yanlış section’a kaymaz.
+
+Referans:
+- `src/components/linkedin/NavAnchor.tsx`
+- `src/components/linkedin/useActiveSection.ts`
+- `src/components/linkedin/TopNav.tsx`
+

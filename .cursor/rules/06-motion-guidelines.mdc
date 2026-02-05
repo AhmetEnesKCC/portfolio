@@ -1,0 +1,12 @@
+# Framer Motion Guidelines (Senior/Sober)
+
+Kurallar:
+- **Subtlety over spectacle**: az mesafe (y 6–12), az scale (0.98→1).
+- Default geçiş: **spring** (yüksek stiffness, orta damping), kısa süreli.
+- List’lerde: **stagger** kullan (`StaggerList`/`StaggerItem`).
+- `prefers-reduced-motion` → animasyon kapalı / minimal.
+
+Referans:
+- `src/components/animations/Reveal.tsx`
+- `src/components/animations/AmbientBackground.tsx`
+

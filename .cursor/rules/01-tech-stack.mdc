@@ -1,0 +1,13 @@
+# Tech Stack
+
+- **Next.js (App Router)**: `app/`
+- **TypeScript**
+- **TailwindCSS v4**
+- **Framer Motion**: animasyonlar
+- **Gemini**: `@google/generative-ai` + `POST /api/ai`
+- **Lucide Icons**: `lucide-react`
+
+Kurallar:
+- UI’da yeni bir bağımlılık eklemeden önce mevcutlarla çözülebiliyor mu kontrol et.
+- Büyük yeni UI kit’ler ekleme; mevcut `ui/` primitive’leri genişlet.
+

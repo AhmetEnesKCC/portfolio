@@ -1,0 +1,8 @@
+# Project Overview (Portfolio / Personal LinkedIn)
+
+Bu repo, Next.js App Router ile geliştirilmiş “LinkedIn-style” koyu tema portföyüdür.
+
+- **Hedef**: Senior/sober UI, kart bazlı layout, low-opacity neon ambient.
+- **Tek kaynak veri**: `cv.latex`
+- **Dil**: `/tr` ve `/en`
+

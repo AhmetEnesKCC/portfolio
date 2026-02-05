@@ -1,0 +1,178 @@
+%------------------------------------------------------------------------------
+% Resume in Latex - Ahmet Enes Keçeci (Image Preserved)
+%------------------------------------------------------------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{soul}
+\input{glyphtounicode}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue,
+            hidelinks]{hyperref}
+
+\usepackage[default]{sourcesanspro}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+% ----------- Definitions & Custom Commands -----------------------
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\titleItem}[1]{\textbf{#1}}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & \textit{#2} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
+
+%-------------------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------
+
+\begin{document}
+
+% ---------- HEADING WITH IMAGE ----------
+\noindent
+\begin{minipage}[t]{0.8\textwidth}
+    \vspace{0pt}
+    \textbf{\Huge Ahmet Enes Keçeci} \\ \vspace{5pt}
+    \small Üsküdar, İstanbul $|$ +90 530 182 1102 \\
+    \href{mailto:ahmet.enes.kcc@gmail.com}{ahmet.enes.kcc@gmail.com} $|$ 
+    \href{https://linkedin.com/in/ahmet-enes}{linkedin.com/in/ahmet-enes} $|$
+    \href{https://github.com/ahmeteneskcc}{github.com/ahmeteneskcc}
+\end{minipage}
+\begin{minipage}[t]{0.19\textwidth}
+    \vspace{-15pt}
+    \hfill
+    \includegraphics[width=0.8\linewidth]{pp.png} % Resim dosyan burada kalmaya devam ediyor
+\end{minipage}
+
+\vspace{10pt}
+
+% ---------- SUMMARY ----------
+\section{Professional Summary}
+Full-stack Software Engineer \& Mathematical Engineer with a strong focus on Web3 ecosystems, Autonomous AI Agents, and Backend Scalability. Proven track record in developing complex microservices using NestJS, gRPC, and Ethers.js.
+
+% ---------- SKILLS ----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+     \titleItem{Languages}{: TypeScript, JavaScript, Go, Rust, Python, SQL, HTML/CSS} \\
+     \titleItem{Backend/Web3}{: NestJS, Node.js, gRPC, Ethers.js, Viem, Hardhat, Prisma, BullMQ, Redis} \\
+     \titleItem{Frontend/Mobile}{: Next.js, React, React Native, Expo, TailwindCSS, Material UI, Mantine} \\
+     \titleItem{DevOps/Tools}{: Docker, Jenkins, AWS (EC2, CloudWatch), Nginx, Git, Postman} \\
+     \titleItem{Data Science}{: PyTorch, TensorFlow, Pandas, NumPy}
+    }
+ \end{itemize}
+
+% ---------- EXPERIENCE ----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\titleItem{Partner $|$ Senior Developer} $|$ \emph{TinyLabs (SAM Terminal)}}{Oct 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Architected a high-performance microservices backend using \textbf{gRPC} for low-latency communication between AI agent services.}
+        \resumeItem{Developed \textbf{SAM}, an autonomous AI agent workflow tool, using \textbf{NestJS} and \textbf{React Flow}, enabling automated Web3 transaction management.}
+        \resumeItem{Implemented robust task queuing systems with \textbf{Redis and BullMQ} to handle 200+ concurrent users in closed alpha.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\titleItem{Fullstack Developer} $|$ \emph{TinyLabs (TinyAgents)}}{Dec 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Engineered an automated token creation and management ecosystem on Ethereum using \textbf{NestJS} and \textbf{Java Quarkus}.}
+        \resumeItem{Integrated \textbf{OpenAI API} to generate unique personas and social media content for autonomous on-chain agents.}
+        \resumeItem{Authored secure \textbf{Smart Contracts} for token distribution and automated claim processes.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\titleItem{Software Developer} $|$ \emph{Vanora Ventures}}{Nov 2024 -- Dec 2024}
+      \resumeItemListStart
+        \resumeItem{Managed maintenance and optimization for high-traffic mobile and web apps (Koroplast, Lassa, Akka Hotels).}
+        \resumeItem{Resolved critical performance bottlenecks and UI bugs for the \textbf{Tuttur} application using React Native.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\titleItem{Software Developer} $|$ \emph{Chainify}}{Jun 2023 -- Mar 2024}
+      \resumeItemListStart
+        \resumeItem{Developed \textbf{Miscet}, an NFT ticketing app, using \textbf{React Native (Expo)} and \textbf{Next.js}.}
+        \resumeItem{Built the entire \textbf{DevOps} infrastructure from scratch using \textbf{AWS, Docker, and Jenkins}.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\titleItem{Frontend Educator \& Mentor} $|$ \emph{Onlyjs}}{Jun 2023 -- Present}
+      \resumeItemListStart
+        \resumeItem{Delivering advanced React Native courses and providing 1-on-1 technical mentorship to aspiring developers.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+% ---------- EDUCATION ----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Istanbul Technical University}{Istanbul, TR}
+      {B.Sc. in Mathematical Engineering}{Jun 2021 -- Jun 2026 (Expected)}
+  \resumeSubHeadingListEnd
+
+% ---------- HACKATHONS & AWARDS ----------
+\section{Hackathons \& Awards}
+\resumeItemListStart
+    \resumeItem{\textbf{EthGlobal Thailand} - Participant \& Finisher \hfill Nov 2024}
+    \resumeItem{\textbf{EthGlobal Singapore} - Participant \& Finisher \hfill Oct 2024}
+    \resumeItem{\textbf{EthGlobal Brussels} - Bounty Winner (1st Place) \hfill Jul 2024}
+    \resumeItem{\textbf{EthBerlin04} - Participant \hfill May 2024}
+    \resumeItem{\textbf{EthGlobal Istanbul} - Participant \hfill Nov 2023}
+    \resumeItem{\textbf{Hackjuno} - 2nd Place Winner \hfill May 2023}
+\resumeItemListEnd
+\end{document}

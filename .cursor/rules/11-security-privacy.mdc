@@ -1,0 +1,8 @@
+# Security & Privacy
+
+Kurallar:
+- `.env.local` commit edilmez.
+- API key / token / secret loglama yapma.
+- AI prompt’unda CV dışı “uydurma” yasak.
+- Kullanıcıdan gelen input’lar server’da trim/validate edilir.
+

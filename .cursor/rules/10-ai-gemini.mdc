@@ -1,0 +1,12 @@
+# AI / Gemini Integration
+
+- API route: `POST /api/ai` (stream text)
+- API key: `GEMINI_API_KEY` (server-only)
+- Prompt: **yalnızca CV verisi** ile cevap ver; yoksa “bilmiyorum” de.
+- Follow-up: son ~5 exchange context (≈ 10 mesaj).
+
+Kurallar:
+- API key’i client’a sızdırma.
+- CV verisini client’a gereksiz taşımadan server’da kullan.
+- Streaming UI’da typing effect: chunk’ları karakter karakter göster.
+

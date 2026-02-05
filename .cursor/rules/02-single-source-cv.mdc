@@ -1,0 +1,10 @@
+# Single Source of Truth: CV
+
+- **Tek gerçek kaynak**: `cv.latex`
+- CV verisi UI’da hardcode edilmez.
+- Parse noktası: `src/data/cv-data.ts` → `CvData`
+
+Kurallar:
+- Timeline/tech stack/doğruluk: `cv.latex` ile **çelişemez**.
+- Yeni alan gerekiyorsa: önce `cv.latex`, sonra parser + types (`src/data/cv-types.ts`).
+

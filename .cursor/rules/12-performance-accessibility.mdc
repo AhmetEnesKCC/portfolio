@@ -1,0 +1,8 @@
+# Performance & Accessibility
+
+Kurallar:
+- `prefers-reduced-motion` → animasyon kapalı/minimal.
+- Büyük görselleri `next/image` ile kullan (logo/avatar uygun boyut).
+- Ambient efektler: tek katman yaklaşımı; DOM’u şişirme.
+- Chat streaming update’leri kontrollü (typing loop).
+

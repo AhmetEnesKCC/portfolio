@@ -1,0 +1,12 @@
+# Component Architecture
+
+- LinkedIn page: `src/components/linkedin/*`
+- Sections: `src/components/linkedin/sections/*`
+- Animations: `src/components/animations/*`
+- UI primitives: `src/components/ui/*`
+
+Kurallar:
+- Her section ayrı bileşen olmalı (tek dosyada dev sayfa yok).
+- Complex logic için hook çıkar: `use*`.
+- Server-only işler (CV okuma, Gemini) client’a taşınmaz.
+

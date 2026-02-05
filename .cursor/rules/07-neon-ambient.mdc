@@ -1,0 +1,14 @@
+# Neon Ambient Palette (Low Opacity)
+
+Amaç: Neon paleti site geneline yedir, ama **baskın olmasın**.
+
+Kurallar:
+- Opacity çok düşük (≈ 0.03–0.05), blur yüksek.
+- Hareket çok yavaş (18–22s loop), “showcase” değil “atmosphere”.
+- Okunabilirlik her şeyden önemli; kartlar her zaman net kalır.
+- Reduced motion’da ambient statik.
+
+Referans:
+- `src/components/animations/AmbientBackground.tsx`
+- `src/components/linkedin/ProfileHeroCard.tsx` cover glow
+

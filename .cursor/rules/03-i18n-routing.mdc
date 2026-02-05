@@ -1,0 +1,11 @@
+# i18n & Routing
+
+- Route’lar: `/tr`, `/en`
+- `/` → `middleware.ts` ile locale’e redirect
+- UI metinleri: `src/i18n/dictionary.ts`
+
+Kurallar:
+- UI string’leri component içinde hardcode etme; dictionary kullan.
+- Tarihler TR’de lokalize: `src/i18n/date-format.ts`
+- CV metni TR için “çeviri katmanı”: `src/i18n/cv-text.ts` (birebir map; kaynak yine `cv.latex`)
+

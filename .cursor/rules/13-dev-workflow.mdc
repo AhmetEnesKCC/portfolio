@@ -1,0 +1,10 @@
+# Dev Workflow
+
+- Dev: `npm run dev`
+- Build: `npm run build`
+
+Kurallar:
+- Build kırıkken merge/ship yok.
+- Yeni section eklerken: önce `cv.latex` → parser → UI.
+- Lint/type hataları bırakma.
+
