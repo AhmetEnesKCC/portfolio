@@ -66,7 +66,12 @@ export function TopNav({ locale }: { locale: Locale }) {
           <span className="grid size-9 place-items-center rounded-xl border border-white/10 bg-white/5 text-sm">
             AE
           </span>
-          <span className="hidden sm:block">{dict.brand.profile}</span>
+          <span className="hidden sm:flex flex-col leading-tight">
+            <span>{dict.brand.profile}</span>
+            <span className="text-[11px] font-medium text-zinc-400">
+              {dict.brand.handle}
+            </span>
+          </span>
         </NavAnchor>
 
         <nav className="flex items-center gap-1">

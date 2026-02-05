@@ -4,6 +4,7 @@ const DICT = {
   tr: {
     brand: {
       profile: "Profil",
+      handle: "@miruli",
     },
     nav: {
       home: "Ana Sayfa",
@@ -19,6 +20,7 @@ const DICT = {
       experience: "Deneyim",
       education: "Eğitim",
       awards: "Hackathonlar & Ödüller",
+      miruli: "Miruli — İmza ve Köken",
     },
     meta: {
       title: "Ahmet Enes Keçeci",
@@ -29,6 +31,7 @@ const DICT = {
   en: {
     brand: {
       profile: "Profile",
+      handle: "@miruli",
     },
     nav: {
       home: "Home",
@@ -44,6 +47,7 @@ const DICT = {
       experience: "Experience",
       education: "Education",
       awards: "Hackathons & Awards",
+      miruli: "Miruli — Signature & Origin",
     },
     meta: {
       title: "Ahmet Enes Keçeci",

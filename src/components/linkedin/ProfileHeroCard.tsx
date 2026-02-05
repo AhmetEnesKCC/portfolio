@@ -99,6 +99,7 @@ export function ProfileHeroCard({
             {cvText(profile.headline, locale)}
           </p>
           <p className="text-sm text-zinc-400">{profile.location}</p>
+          <p className="text-xs text-zinc-500/90">@miruli</p>
         </div>
 
         {(profile.email || profile.phone || profile.linkedin || profile.github) && (

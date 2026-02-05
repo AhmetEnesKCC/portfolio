@@ -10,6 +10,7 @@ import { SkillsSection } from "@/src/components/linkedin/sections/SkillsSection"
 import { ExperienceSection } from "@/src/components/linkedin/sections/ExperienceSection";
 import { EducationSection } from "@/src/components/linkedin/sections/EducationSection";
 import { AwardsSection } from "@/src/components/linkedin/sections/AwardsSection";
+import { MiruliSection } from "@/src/components/linkedin/sections/MiruliSection";
 import type { Locale } from "@/src/i18n/locales";
 import { getDictionary } from "@/src/i18n/dictionary";
 import { Reveal } from "@/src/components/animations/Reveal";
@@ -75,6 +76,10 @@ export function LinkedInProfilePage({
             locale={locale}
             items={cv.awards}
           />
+        </Reveal>
+
+        <Reveal delay={0.12}>
+          <MiruliSection title={dict.sections.miruli} locale={locale} />
         </Reveal>
       </motion.main>
     </div>
