@@ -10,6 +10,28 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Ahmet Enes Keçeci",
   description: "Personal portfolio",
+  openGraph: {
+    title: "Ahmet Enes Keçeci",
+    description: "Personal portfolio",
+    url: "https://www.miruli.com",
+    siteName: "Ahmet Enes Keçeci",
+    images: [
+      {
+        url: "https://www.miruli.com/pp.png",
+        width: 1200,
+        height: 630,
+        alt: "Ahmet Enes Keçeci Portfolio",
+      },
+    ],
+    locale: "tr_TR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ahmet Enes Keçeci",
+    description: "Personal portfolio",
+    images: ["https://www.miruli.com/pp.png"],
+  },
 };
 
 export default function RootLayout({
