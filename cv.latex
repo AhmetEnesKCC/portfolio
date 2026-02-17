@@ -120,7 +120,7 @@ Full-stack Software Engineer \& Mathematical Engineer with a strong focus on Web
   \resumeSubHeadingListStart
 
     \resumeProjectHeading
-      {\titleItem{Partner $|$ Senior Developer} $|$ \emph{TinyLabs (SAM Terminal)}}{Oct 2024 -- Present}
+      {\titleItem{Partner $|$ Senior Developer} $|$ \emph{TinyLabs (SAM Terminal)}}{Oct 2024 -- Jan 2026}
       \resumeItemListStart
         \resumeItem{Architected a high-performance microservices backend using \textbf{gRPC} for low-latency communication between AI agent services.}
         \resumeItem{Developed \textbf{SAM}, an autonomous AI agent workflow tool, using \textbf{NestJS} and \textbf{React Flow}, enabling automated Web3 transaction management.}
@@ -128,7 +128,7 @@ Full-stack Software Engineer \& Mathematical Engineer with a strong focus on Web
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\titleItem{Fullstack Developer} $|$ \emph{TinyLabs (TinyAgents)}}{Dec 2024 -- Present}
+      {\titleItem{Fullstack Developer} $|$ \emph{TinyLabs (TinyAgents)}}{Dec 2024 -- Jan 2026}
       \resumeItemListStart
         \resumeItem{Engineered an automated token creation and management ecosystem on Ethereum using \textbf{NestJS} and \textbf{Java Quarkus}.}
         \resumeItem{Integrated \textbf{OpenAI API} to generate unique personas and social media content for autonomous on-chain agents.}
@@ -150,7 +150,7 @@ Full-stack Software Engineer \& Mathematical Engineer with a strong focus on Web
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\titleItem{Frontend Educator \& Mentor} $|$ \emph{Onlyjs}}{Jun 2023 -- Present}
+      {\titleItem{Frontend Educator \& Mentor} $|$ \emph{Onlyjs}}{Jun 2023 -- Jan 2026}
       \resumeItemListStart
         \resumeItem{Delivering advanced React Native courses and providing 1-on-1 technical mentorship to aspiring developers.}
       \resumeItemListEnd
